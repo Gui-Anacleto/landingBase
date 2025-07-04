@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <Hero />
+      <Hero title="Acelere sua presença online" ctaText="Começar agora"/>
     </>
   );
 }

@@ -1,8 +1,8 @@
-function Hero() {
+function Hero(props) {
   return (
     <section>
-      <h1> Meu titulo aqui </h1>
-      <button> Chamar para ação </button>
+      <h1> {props.title} </h1>
+      <button> {props.ctaText} </button>
     </section>
   )
 }
