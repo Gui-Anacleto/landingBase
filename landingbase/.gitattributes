@@ -1,0 +1,9 @@
+# Normalize todos os arquivos de texto
+* text=auto
+
+# Força arquivos específicos a usar LF (útil para scripts, código, etc)
+*.js text eol=lf
+*.jsx text eol=lf
+*.json text eol=lf
+*.css text eol=lf
+*.html text eol=lf
