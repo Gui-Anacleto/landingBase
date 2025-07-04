@@ -1,4 +1,5 @@
 import Hero from './components/Hero'
+import landingConfig from './config/landing.json'
 import './App.css'
 
 function App() {
@@ -6,7 +7,12 @@ function App() {
 
   return (
     <>
-      <Hero title="Acelere sua presença online" ctaText="Começar agora"/>
+      <Hero 
+        title={landingConfig.hero.title} 
+        ctaText={landingConfig.hero.ctaText} 
+        subtitle={landingConfig.hero.subtitle}
+        image={landingConfig.hero.image}
+      />
     </>
   );
 }
