@@ -1,6 +1,5 @@
 import Hero from './components/Hero'
 import landingConfig from './config/landing.json'
-import './App.css'
 
 function App() {
 
